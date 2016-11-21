@@ -2,12 +2,111 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Music History</title>
+	<meta charset="utf-8">
+	<title>Music History 01</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans+Condensed:300" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
 
+<!-- white wrapper -->
+	<div id="wrapper">
+			<header>
+				<h1>Music History 01 Exercise</h1>
+			</header>
+
+<!-- top bar -->
+			<div class="top-column">
+				<p>View Music<span class="alignment">  |  </span>Add Music<span class="alignment">  |  </span>Profile</p>
+			</div>
+
+<!-- flexbox -->
+		<div id="flex-1">
+
+<!-- left column -->
+			<div class="left-column">
+				<p>Song Length:</p>
+		<!-- song length range -->
+				<input type="range" name="Song Length" class="bolding">
+
+				<p>Artist:</p>
+		<!-- artist select box -->
+				<select name="Artist Option">
+					<option value="ML">Miranda Lambert</option>
+					<option value="A">Athena</option>
+					<option value="GW">Gillian Welsh</option>
+					<option value="KM">Kacey Musgraves</option>
+				</select>
+				
+		<!-- album select box -->	
+				<p>Album:</p>
+				<select name="Album Option">
+					<option value="ML">Gillian Welsh</option>
+					<option value="A">Athena</option>
+					<option value="GW">Miranda Lambert</option>
+					<option value="KM">Kacey Musgraves</option>
+				</select>
+
+		<!-- genre checkbox -->
+				<p>Genre:</p>
+			<div class="inline-1">
+				<div>
+					<div>
+					<input type="checkbox" name="genre" value="Southern Rock" checked="checked"> Southern Rock	
+					</div>
+					<div>
+					<input type="checkbox" name="genre" value="Classic Rock"> Classic Rock
+					</div>
+					<div>
+					<input type="checkbox" name="genre" value="Americana"> Americana
+					</div>
+				</div>
+				<div>
+					<div>
+					<input type="checkbox" name="genre" value="Country"> Country
+					</div>
+					<div>
+					<input type="checkbox" name="genre" value="90's Country"> 90's Country
+					</div>
+					<div>
+					<input type="checkbox" name="genre" value="Classical"> Classical 
+					</div>
+				</div>
+
+			</div>
+
+		<!-- filter button -->
+				<div id="filter-button">
+				<input type="submit" value="Filter">
+				</div>
+	
+
+			</div>
+
+<!-- right column -->
+			<div class="right-columm">
+
+				<p class="songName">Song Name</p>
+				<p>Artist Name<span class="alignment">  |  </span>Album Name<span class="alignment">  |  </span>Genre</p>
+
+				<p class="songName">Song Name</p>
+				<p>Artist Name<span class="alignment">  |  </span>Album Name<span class="alignment">  |  </span>Genre</p>
+
+				<p class="songName">Song Name</p>
+				<p>Artist Name<span class="alignment">  |  </span>Album Name<span class="alignment">  |  </span>Genre</p>
+
+				<p class="songName">Song Name</p>
+				<p>Artist Name<span class="alignment">  |  </span>Album Name<span class="alignment">  |  </span>Genre</p>
+
+				<p class="songName">Song Name</p>
+				<p>Artist Name<span class="alignment">  |  </span>Album Name<span class="alignment">  |  </span>Genre</p>
+				
+			</div>
+		</div>
+	</div>
+
 
 </body>
 </html>
+

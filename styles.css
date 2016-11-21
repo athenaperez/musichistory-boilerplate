@@ -1,0 +1,99 @@
+/**********************************
+GENERAL STYLING
+**********************************/
+
+
+body {
+	background-color: lightgrey;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+	font-family: 'Josefin Slab', serif;
+	padding-top: 5%;
+}
+
+#wrapper {
+	width: 100%;
+	max-width: 1000px;
+	min-width: 700px;
+	background-color: white;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#flex-1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 1.5% 10% 5% 10%;
+}
+
+
+/**********************************
+BOX STYLING
+**********************************/
+
+
+.top-column {
+	text-align: left;
+	border: solid 2px black;
+	padding-left: 5%;
+	background-color: #FFB4B0;
+	margin: 2% 10% 0 10%;
+	margin-bottom: 0;
+}
+
+.left-column {	
+	background-color: #4DD7FA;
+	text-align: left;
+	border: solid 2px black;
+	width: 30%;
+	padding: 0 4% 2% 2%
+}
+
+.right-columm {
+	background-color: #FEFAC0;	
+	text-align: left;
+	border: solid 2px black;
+	width: 57%;
+	padding-left: 4%;
+}
+
+
+/**********************************
+
+**********************************/
+
+.inline-1 {
+	display: flex;
+	flex-direction: row;
+}
+
+#filter-button {
+	text-align: center;
+	margin-top: 15%;
+}
+
+.alignment {
+	word-spacing: .8em;
+}
+
+.songName {
+	font-size: 1.5em;
+	letter-spacing: .1em;
+}
+
+
+
+
+
+
+
+
+/*
+.bolding {
+	border: solid 10px black;
+}*/
